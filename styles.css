@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 85vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    outline: thin solid black;
+}
+.row{
+    display: flex;
+    flex: 1;
+}
+.col{
+    flex: 1;
+    background-color: white;
+    font-size: 8px;
+}
+#reset{
+    position: absolute;
+}
